@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="doc/icon.png" alt="icon" >
+  <img src="doc/icon.png" width="50px" alt="icon" >
   <br>
   pizza shop
   <br>
@@ -12,11 +12,10 @@
 
 <p align="center">Dashboard for establishment management and order control in the iFood style.</p>
 
-<!-- <p align="center">
-  <img src="docs/illustration.png" alt="illustration" >
+<p align="center">
+  <img src="doc/illustration.png" alt="illustration" >
 </p>
- -->
- 
+
 ## 📦 Tech Stack
 
 - React
@@ -46,13 +45,20 @@ To install and run the project locally, follow these steps:
 
 ### web
 
+Start the development server: 
+
 `yarn dev`
 
 ### api
 
+Start the development server: 
+
 `docker compose up -d`
+
 `bun migrate`
+
 `bun seed`
+
 `bun dev`
 
 ## 📝 License
