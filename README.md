@@ -36,7 +36,7 @@ To install and run the project locally, follow these steps:
 
 ### api
 
-1. Install [**Yarn**](https://yarnpkg.com/) on your computer
+1. Install [**Bun**](https://bun.sh/) on your computer
 1. Clone the repository `git clone https://github.com/jhonbergmann/pizza-shop`
 1. Navigate to the project directory: `cd pizza-shop/api`
 1. Install the dependencies: `bun i`
