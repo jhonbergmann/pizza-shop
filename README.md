@@ -37,6 +37,7 @@ To install and run the project locally, follow these steps:
 ### api
 
 1. Install [**Bun**](https://bun.sh/) on your computer
+1. Install [**Docker**](https://www.docker.com/) on your computer
 1. Clone the repository `git clone https://github.com/jhonbergmann/pizza-shop`
 1. Navigate to the project directory: `cd pizza-shop/api`
 1. Install the dependencies: `bun i`
@@ -47,19 +48,16 @@ To install and run the project locally, follow these steps:
 
 Start the development server: 
 
-`yarn dev`
+1. Run: `yarn dev`
 
 ### api
 
 Start the development server: 
 
-`docker compose up -d`
-
-`bun migrate`
-
-`bun seed`
-
-`bun dev`
+1. Run: `docker compose up -d`
+1. Run: `bun migrate`
+1. Run: `bun seed`
+1. Run: `bun dev`
 
 ## 📝 License
 
